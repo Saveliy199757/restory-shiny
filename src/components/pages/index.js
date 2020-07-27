@@ -1,0 +1,9 @@
+import HomePage from './home-page';
+import CartPage from './cart-page';
+import StarePages from "./star-page";
+
+export {
+  HomePage,
+  CartPage,
+  StarePages
+};

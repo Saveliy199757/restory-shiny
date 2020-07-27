@@ -1,0 +1,68 @@
+.shop-header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 1rem;
+  display: grid;
+  grid-template-columns: 30% 30% 20% 10% 10%;
+  grid-template-rows: auto;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  justify-items: center;
+}
+.shop-header div i {
+  color: red;
+}
+.shop-header .order {
+  position: absolute;
+  top: 60px;
+  background: #7c7c7c;
+  left: 86%;
+}
+
+.shop-header div i {
+  cursor: pointer;
+}
+
+.shop-header .logo {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 2.5rem;
+  padding-left: 1rem;
+}
+
+.shop-header .shopping-cart {
+  align-self: center;
+  font-size: 1.3rem;
+  padding-right: 1rem;
+}
+
+.shop-header .shopping-cart .cart-icon {
+  font-size: 2.2rem;
+  color: cadetblue;
+  margin-right: 10px;
+}
+.shopping-cart .shopping-cart-hover {
+  font-size: 16px;
+  position: absolute;
+  top: 61px;
+  right: -1000px;
+  cursor: pointer;
+  z-index: 10;
+  background: #7c7c7c;
+  width: 50%;
+  transition: right 0.5s ease-in;
+}
+.shopping-cart .shopping-cart-hover.hide {
+  position: absolute;
+  top: 61px;
+  right: 0px;
+  cursor: pointer;
+  z-index: 10;
+  background: #7c7c7c;
+  width: 50%;
+}
+
+.shop-header-item {
+  font-size: 16px;
+}
+
+
